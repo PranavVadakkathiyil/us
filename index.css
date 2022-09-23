@@ -226,48 +226,55 @@ body{
 
 
 /* for responsive */
-@media (max-width:1100px)
+@media (max-width:991px)
 {   body{
     max-width: 100%;
     overflow-x: hidden;
     
+    
     }
     .navigator .row .name{
         align-items: center;
+        
+    
+        
     }
-    .service .row{
-        align-items: center;
-    }
-    .Experience .row{
-        align-items: center;
-    }
+   
     .navigator{
         max-width: 100%;
         overflow-x: hidden;
+        
     }
     .service .container{
         max-width: 100%;
         overflow-x: hidden;
         
+        
     }
     
     .container1{
         background:#C5C5C5;
+        
     }
     .container1 .contactus{
         max-width: 100%;
         overflow-x: hidden;
+        align-items: center;
+        
+        
+       
 
     }
     .Experience .container{
         max-width: 100%;
         overflow-x: hidden;
+        
+       
     }
     
     .contactus{
-        padding: 15px;
-        align-items: center;
-
+       padding: 20px;
+       
     }
     .box{
         
@@ -283,6 +290,7 @@ body{
         display: flex;
         gap: 0;
         flex-direction: column;
+        
 
     }
     .inputBox{
@@ -291,7 +299,8 @@ body{
     }
     .contact{
         padding: 30px;
-        width: 459px;
+        width: 350px;
+
     }
     .map{
         padding: 0;
@@ -309,3 +318,4 @@ body{
         margin-bottom: 15px;
     }
 }
+
