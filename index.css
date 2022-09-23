@@ -299,7 +299,7 @@ body{
     }
     .contact{
         padding: 30px;
-        width: 330px;
+        width: 320px;
 
     }
     .map{
@@ -308,6 +308,17 @@ body{
 
 
     }
+        .sci
+ {
+    margin-top: 20px;
+    display: flex;
+
+ }
+ .sci li{
+    list-style: none;
+    margin-right: 15px;
+
+ }
     .card text-center {
         padding-top: 20px;
     }
